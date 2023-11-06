@@ -71,10 +71,10 @@ h3{font-size:2em}
 h4{font-size: 1em;}
 
 .app{
-       text-align: left;
+
        border: 0 solid var(--dark-color);
-       padding: 20px;
-       margin: 30px;
+       padding: 40px;
+       margin: 40px;
        border-radius: 20px;
        box-shadow: var(--shadow);
        background-color: var(--primary-color);
@@ -97,10 +97,27 @@ h4{font-size: 1em;}
        margin: 10px 0;
        border-radius: 10px;
        border: none;
-       transition: 0.3 all;
        cursor: pointer;
 }
 .btn:hover{
        background-color: #323050;
        color: var(--white-color);
+       transition: 0.3 all;
+}
+.next{
+       background-color: var(--background-color);
+       color: var(--white-color);
+       font-size: 1.2rem;
+       padding: 8px;
+       width: 150px;
+       border-radius: 10px;
+       border: none;
+       cursor: pointer;
+       margin: 10px auto 0;
+       display: none;
+}
+.next:hover{
+       background-color: #323050;
+       color: var(--white-color);
+       transition: 0.3 all;
 }
