@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Josefin+Sans:wght@100;400;500;600;700&family=Kablammo&family=Metal+Mania&family=Montserrat:wght@400;500;600&family=Open+Sans:wght@400;500;700&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Paytone+One&family=Poppins:wght@300;400;500;600;700;900&family=Prata&family=Roboto+Mono:ital,wght@0,300;0,400;0,600;1,700&family=Roboto:wght@400;700&family=Rubik+Pixels&display=swap');
 
 :root{
-       --primary-color:#2bcbba;
+       --primary-color:#faed26;
        --light-color:#d1d8e0;
        --grey-color:#687080;
        --red-color:#ff4757;
        --flashwhite-color:#f1f2f6;
        --white-color:#ffffff;
-       --dark-color:#212121;
+       --dark-color:#5a5560;
+       --background-color:#46344e;
 
        --primary-font:'Montserrat', sans-serif;
        --second-font:'Prata', serif;
@@ -39,7 +40,7 @@ body{
        font-weight: 400;
        line-height: 1.8;
        color: var(--dark-color);
-       background-color: var(--white-color);
+       background-color: var(--background-color);
 }
 a{
        text-decoration: none;
@@ -68,3 +69,13 @@ h1{font-size: 2.75em;}
 h2{font-size:2.5em}
 h3{font-size:2em}
 h4{font-size: 1em;}
+
+.app{
+       text-align: center;
+       border: 0 solid var(--dark-color);
+       padding: 20px;
+       margin: 30px;
+       border-radius: 20px;
+       box-shadow: var(--shadow);
+       background-color: var(--primary-color);
+}
