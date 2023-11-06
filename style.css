@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Josefin+Sans:wght@100;400;500;600;700&family=Kablammo&family=Metal+Mania&family=Montserrat:wght@400;500;600&family=Open+Sans:wght@400;500;700&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Paytone+One&family=Poppins:wght@300;400;500;600;700;900&family=Prata&family=Roboto+Mono:ital,wght@0,300;0,400;0,600;1,700&family=Roboto:wght@400;700&family=Rubik+Pixels&display=swap');
 
 :root{
-       --primary-color:#faed26;
-       --light-color:#d1d8e0;
+       --primary-color:#25bcc4;
+       --light-color:#f8a498;
        --grey-color:#687080;
        --red-color:#ff4757;
        --flashwhite-color:#f1f2f6;
        --white-color:#ffffff;
-       --dark-color:#5a5560;
-       --background-color:#46344e;
+       --dark-color:#acaccc;
+       --background-color:#14395c;
 
        --primary-font:'Montserrat', sans-serif;
        --second-font:'Prata', serif;
@@ -39,7 +39,7 @@ body{
        font-size: 16px;
        font-weight: 400;
        line-height: 1.8;
-       color: var(--dark-color);
+       color: var(--flashwhite-color);
        background-color: var(--background-color);
 }
 a{
@@ -71,11 +71,36 @@ h3{font-size:2em}
 h4{font-size: 1em;}
 
 .app{
-       text-align: center;
+       text-align: left;
        border: 0 solid var(--dark-color);
        padding: 20px;
        margin: 30px;
        border-radius: 20px;
        box-shadow: var(--shadow);
        background-color: var(--primary-color);
+}
+.app h1{
+       border-bottom: 3px solid var(--flashwhite-color);
+       padding-bottom: 20px;
+}
+.quiz h2{
+       padding: 20px 0;
+       font-size: 1.4rem;
+}
+.quiz div{
+       display: flex;
+       flex-direction: column;
+}
+.btn{
+       text-align: left;
+       padding: 10px;
+       margin: 10px 0;
+       border-radius: 10px;
+       border: none;
+       transition: 0.3 all;
+       cursor: pointer;
+}
+.btn:hover{
+       background-color: #323050;
+       color: var(--white-color);
 }
