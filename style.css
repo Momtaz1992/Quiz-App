@@ -98,11 +98,15 @@ h4{font-size: 1em;}
        border-radius: 10px;
        border: none;
        cursor: pointer;
+       transition: 0.3 all;
 }
-.btn:hover{
+.btn:hover:not([disabled]){
        background-color: #323050;
        color: var(--white-color);
-       transition: 0.3 all;
+}
+.btn:disabled{
+       opacity: 0.5;
+       cursor: no-drop;
 }
 .next{
        background-color: var(--background-color);
@@ -120,4 +124,10 @@ h4{font-size: 1em;}
        background-color: #323050;
        color: var(--white-color);
        transition: 0.3 all;
+}
+.correct{
+       background: #9aeabc;
+}
+.incorrect{
+       background: #ff9393;
 }
