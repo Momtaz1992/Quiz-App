@@ -40,7 +40,7 @@
               { text: "Dublin", correct: false }
               ]
        }
-] */
+] 
 const questions = [
        {
            question: "What is the capital of France?",
@@ -176,7 +176,189 @@ const questions = [
            ]
        }
    ];
-   
+   */
+   const questions = [
+       {
+         question: "Wie viele Bundesländer hat Deutschland?",
+         answers: [
+           { text: "14", correct: false },
+           { text: "16", correct: true },
+           { text: "18", correct: false },
+           { text: "20", correct: false }
+         ]
+       },
+       {
+         question: "Was ist die Hauptstadt von Deutschland?",
+         answers: [
+           { text: "München", correct: false },
+           { text: "Hamburg", correct: false },
+           { text: "Berlin", correct: true },
+           { text: "Köln", correct: false }
+         ]
+       },
+       {
+         question: "Wer war der erste Bundeskanzler der Bundesrepublik Deutschland?",
+         answers: [
+           { text: "Konrad Adenauer", correct: true },
+           { text: "Willy Brandt", correct: false },
+           { text: "Angela Merkel", correct: false },
+           { text: "Gerhard Schröder", correct: false }
+         ]
+       },
+       {
+         question: "Wann wurde die Berliner Mauer gebaut?",
+         answers: [
+           { text: "1950", correct: false },
+           { text: "1961", correct: true },
+           { text: "1973", correct: false },
+           { text: "1980", correct: false }
+         ]
+       },
+       {
+         question: "Welcher Fluss ist der längste in Deutschland?",
+         answers: [
+           { text: "Rhein", correct: false },
+           { text: "Elbe", correct: false },
+           { text: "Donau", correct: true },
+           { text: "Oder", correct: false }
+         ]
+       },
+       {
+         question: "Was ist die Währung in Deutschland?",
+         answers: [
+           { text: "Euro", correct: true },
+           { text: "Pfund", correct: false },
+           { text: "Dollar", correct: false },
+           { text: "Mark", correct: false }
+         ]
+       },
+       {
+         question: "Wie nennt man die deutschen Bundesländer?",
+         answers: [
+           { text: "Kantone", correct: false },
+           { text: "Provinzen", correct: false },
+           { text: "Länder", correct: true },
+           { text: "Bezirke", correct: false }
+         ]
+       },
+       {
+         question: "Was ist der höchste Berg in Deutschland?",
+         answers: [
+           { text: "Zugspitze", correct: true },
+           { text: "Watzmann", correct: false },
+           { text: "Feldberg", correct: false },
+           { text: "Brocken", correct: false }
+         ]
+       },{
+              question: "Wer schrieb die deutsche Nationalhymne?",
+              answers: [
+                { text: "Johann Wolfgang von Goethe", correct: false },
+                { text: "Ludwig van Beethoven", correct: false },
+                { text: "Friedrich Schiller", correct: true },
+                { text: "Johann Sebastian Bach", correct: false }
+              ]
+            },
+            {
+              question: "In welchem Jahr wurde die Bundesrepublik Deutschland gegründet?",
+              answers: [
+                { text: "1945", correct: false },
+                { text: "1949", correct: true },
+                { text: "1955", correct: false },
+                { text: "1961", correct: false }
+              ]
+            },
+            {
+              question: "Welches Fest feiern die Deutschen am 3. Oktober?",
+              answers: [
+                { text: "Tag der Arbeit", correct: false },
+                { text: "Tag der Einheit", correct: true },
+                { text: "Weihnachten", correct: false },
+                { text: "Ostern", correct: false }
+              ]
+            },
+            {
+              question: "Wie viele Sterne hat die deutsche Flagge?",
+              answers: [
+                { text: "4", correct: false },
+                { text: "5", correct: false },
+                { text: "6", correct: false },
+                { text: "keine Sterne", correct: true }
+              ]
+            },
+            {
+              question: "Was ist der längste Fluss in Deutschland?",
+              answers: [
+                { text: "Elbe", correct: false },
+                { text: "Donau", correct: false },
+                { text: "Rhein", correct: true },
+                { text: "Weser", correct: false }
+              ]
+            },
+            {
+              question: "Wer ist das deutsche Staatsoberhaupt?",
+              answers: [
+                { text: "Bundeskanzler", correct: false },
+                { text: "Bundespräsident", correct: true },
+                { text: "Bundesrat", correct: false },
+                { text: "Bundestagspräsident", correct: false }
+              ]
+            },
+            {
+              question: "Welches ist das größte Volksfest in Deutschland?",
+              answers: [
+                { text: "Weihnachtsmarkt", correct: false },
+                { text: "Oktoberfest", correct: true },
+                { text: "Karneval", correct: false },
+                { text: "Ostermarkt", correct: false }
+              ]
+            },
+            {
+              question: "Wie nennt man den deutschen Bundestag auf Englisch?",
+              answers: [
+                { text: "Federal Parliament", correct: false },
+                { text: "Federal Council", correct: false },
+                { text: "Federal Diet", correct: true },
+                { text: "Federal Assembly", correct: false }
+              ]
+            },
+            {
+              question: "Welches ist das größte Gebirge in Deutschland?",
+              answers: [
+                { text: "Alpen", correct: true },
+                { text: "Harzgebirge", correct: false },
+                { text: "Schwarzwald", correct: false },
+                { text: "Erzgebirge", correct: false }
+              ]
+            },
+            {
+              question: "Wer ist der Verfasser des Grundgesetzes?",
+              answers: [
+                { text: "Theodor Heuss", correct: false },
+                { text: "Konrad Adenauer", correct: false },
+                { text: "Willy Brandt", correct: false },
+                { text: "Dr. Theodor Maunz", correct: true }
+              ]
+            },
+            {
+              question: "Welcher deutsche Physiker formulierte die Relativitätstheorie?",
+              answers: [
+                { text: "Werner Heisenberg", correct: false },
+                { text: "Max Planck", correct: false },
+                { text: "Albert Einstein", correct: true },
+                { text: "Erwin Schrödinger", correct: false }
+              ]
+            },
+            {
+              question: "Was ist der Unterschied zwischen 'U-Bahn' und 'S-Bahn'?",
+              answers: [
+                { text: "U-Bahn fährt unterirdisch, S-Bahn überirdisch", correct: false },
+                { text: "U-Bahn ist schneller als S-Bahn", correct: false },
+                { text: "U-Bahn ist innerstädtisch, S-Bahn verbindet Stadtteile und Vororte", correct: true },
+                { text: "U-Bahn ist teurer als S-Bahn", correct: false }
+              ]
+            }
+     ];
+     
 
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answear-buttons");
