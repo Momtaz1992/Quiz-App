@@ -177,7 +177,7 @@ const questions = [
        }
    ];
    */
-   const questions = [
+   /* const questions = [
        {
          question: "Wie viele Bundesländer hat Deutschland?",
          answers: [
@@ -357,6 +357,143 @@ const questions = [
                 { text: "U-Bahn ist teurer als S-Bahn", correct: false }
               ]
             }
+     ]; */
+     const questions = [
+       {
+         question: "Was ist die Hauptstadt von Frankreich?",
+         answers: [
+           { text: "New York", correct: false },
+           { text: "London", correct: false },
+           { text: "Paris", correct: true },
+           { text: "Dublin", correct: false }
+         ]
+       },
+       {
+         question: "Was ist die Hauptstadt von Spanien?",
+         answers: [
+           { text: "New York", correct: false },
+           { text: "London", correct: false },
+           { text: "Madrid", correct: true },
+           { text: "Dublin", correct: false }
+         ]
+       },
+       {
+         question: "Was ist das größte Säugetier der Welt?",
+         answers: [
+           { text: "Elefant", correct: false },
+           { text: "Blaue Wal", correct: true },
+           { text: "Giraffe", correct: false },
+           { text: "Flusspferd", correct: false }
+         ]
+       },
+       {
+         question: "Welcher Planet ist als der Rote Planet bekannt?",
+         answers: [
+           { text: "Venus", correct: false },
+           { text: "Mars", correct: true },
+           { text: "Jupiter", correct: false },
+           { text: "Saturn", correct: false }
+         ]
+       },
+       {
+         question: "Was ist das chemische Symbol für Gold?",
+         answers: [
+           { text: "Au", correct: true },
+           { text: "Ag", correct: false },
+           { text: "Fe", correct: false },
+           { text: "Cu", correct: false }
+         ]
+       },
+       {
+         question: "Wer malte die Mona Lisa?",
+         answers: [
+           { text: "Vincent van Gogh", correct: false },
+           { text: "Pablo Picasso", correct: false },
+           { text: "Leonardo da Vinci", correct: true },
+           { text: "Michelangelo", correct: false }
+         ]
+       },
+       {
+         question: "Was ist die Hauptstadt von Deutschland?",
+         answers: [
+           { text: "München", correct: false },
+           { text: "Berlin", correct: true },
+           { text: "Hamburg", correct: false },
+           { text: "Leipzig", correct: false }
+         ]
+       },
+       {
+         question: "Was ist das größte Organ im menschlichen Körper?",
+         answers: [
+           { text: "Herz", correct: false },
+           { text: "Gehirn", correct: false },
+           { text: "Haut", correct: true },
+           { text: "Leber", correct: false }
+         ]
+       },
+       {
+         question: "Was ist die Lichtgeschwindigkeit?",
+         answers: [
+           { text: "299.792 Kilometer pro Sekunde", correct: true },
+           { text: "150.000 Kilometer pro Sekunde", correct: false },
+           { text: "200.000 Kilometer pro Sekunde", correct: false },
+           { text: "250.000 Kilometer pro Sekunde", correct: false }
+         ]
+       },
+       {
+         question: "Wer schrieb 'Romeo und Julia'?",
+         answers: [
+           { text: "William Shakespeare", correct: true },
+           { text: "Jane Austen", correct: false },
+           { text: "Charles Dickens", correct: false },
+           { text: "Mark Twain", correct: false }
+         ]
+       },
+       {
+         question: "Was ist die Hauptstadt von Libanon?",
+         answers: [
+           { text: "Beirut", correct: true },
+           { text: "Tripoli", correct: false },
+           { text: "Jbeil", correct: false },
+           { text: "Jounyeh", correct: false }
+         ]
+       },
+       {
+         question: "Welches Land ist das größte nach der Landfläche?",
+         answers: [
+           { text: "China", correct: false },
+           { text: "Vereinigte Staaten", correct: false },
+           { text: "Kanada", correct: true },
+           { text: "Russland", correct: false }
+         ]
+       },
+       {
+         question: "Was ist der höchste Berg der Welt?",
+         answers: [
+           { text: "K2", correct: false },
+           { text: "Mount Kilimanjaro", correct: false },
+           { text: "Mount Everest", correct: true },
+           { text: "Denali", correct: false }
+         ]
+       },
+       {
+         question: "Was ist die Hauptstadt des Vereinigten Königreichs?",
+         answers: [
+           { text: "New York", correct: false },
+           { text: "London", correct: true },
+           { text: "Paris", correct: false },
+           { text: "Dublin", correct: false }
+         ]
+       },
+       {
+         question: "Was ist das chemische Symbol für Wasser?",
+         answers: [
+           { text: "H2O", correct: true },
+           { text: "CO2", correct: false },
+           { text: "O2", correct: false },
+           { text: "NaCl", correct: false }
+         ]
+       }
      ];
      
 
